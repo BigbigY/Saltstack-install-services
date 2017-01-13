@@ -1,0 +1,15 @@
+[Unit]  
+Description=tengine  
+After=network.target  
+   
+[Service]  
+Type=forking  
+ExecStart=/etc/init.d/tengine start  
+ExecReload=/etc/init.d/tengine reload  
+ExecStop=/etc/init.d/tengine  stop  
+ExecRestart=/etc/init.d/tengine restart  
+ExecTest=/etc/init.d/tengine test  
+PrivateTmp=true  
+   
+[Install]  
+WantedBy=multi-user.target  
