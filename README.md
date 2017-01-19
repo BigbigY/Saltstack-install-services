@@ -1,5 +1,3 @@
-# 学习的赵班长的架构师课程内的Saltstack，并学习的源码
-
 # saltbook-code
 《SaltStack技术入门与实战》第三章：SaltStack实践案例源码
 
